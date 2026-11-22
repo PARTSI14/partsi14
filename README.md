@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hi, I'm Stelios Partsinevelos 👋
 
-<!--
-**PARTSI14/partsi14** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Cybersecurity portfolio focused on **threat intelligence, detection engineering and incident response**, mapped to MITRE ATT&CK, ATT&CK for ICS, ATLAS and SPARTA.
 
-Here are some ideas to get you started:
+## 🔐 Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+This list updates itself every day from my public repositories.
+
+<!-- PROJECTS:START -->
+(updated automatically every day)
+<!-- PROJECTS:END -->
+
+## 🛠️ Skills
+
+Threat Intelligence · Detection Engineering · Incident Response · MITRE ATT&CK / ICS / ATLAS · SPARTA · Sigma · KQL · Splunk SPL · NIS2 · GDPR
+
+## 📫 Contact
+
+[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN)
