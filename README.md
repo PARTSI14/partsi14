@@ -16,12 +16,6 @@ This list updates itself every day from my public repositories.
 | [php2shell-detection-engineering](https://github.com/PARTSI14/php2shell-detection-engineering) | Detection engineering for PHP2Shell (CVE-2026-109618 / CVE-2026-109619): Sigma rules with Splunk queries, a patch-or-isolate response playbook and a MITRE ATT&CK mapping. |  |
 | [eu-cold-chain-sabotage-2026](https://github.com/PARTSI14/eu-cold-chain-sabotage-2026) | Analysis of the 2026 European refrigeration sabotage campaign (France, Oct–Nov 2026), mapped to MITRE ATT&CK for ICS and Enterprise, with SOC detection opportunities and countermeasures (NIST 800-53, ISO 27001). |  |
 | [ka-sat-sparta-analysis](https://github.com/PARTSI14/ka-sat-sparta-analysis) | Threat analysis of the 2022 Viasat KA-SAT cyberattack, mapped to SPARTA and MITRE ATT&CK, with SOC detection opportunities and countermeasures (NIST 800-53, ISO 27001). |  |
-| [DGA_Classification.ipynb](https://github.com/PARTSI14/DGA_Classification.ipynb) | DGA_Classification.ipynb |  |
-| [dga-edited-notebook](https://github.com/PARTSI14/dga-edited-notebook) | dga-edited-notebook |  |
-| [fix_notebook.py](https://github.com/PARTSI14/fix_notebook.py) | fix_notebook.py |  |
-| [IFOREST-AND-ECOD](https://github.com/PARTSI14/IFOREST-AND-ECOD) | IFOREST AND ECOD COMPARISON |  |
-| [Anomaly_Detection.ipynb-Lab](https://github.com/PARTSI14/Anomaly_Detection.ipynb-Lab) | USE OF ECOD MODEL |  |
-| [LAB-STELIOS](https://github.com/PARTSI14/LAB-STELIOS) | LAB STELIOS |  |
 <!-- PROJECTS:END -->
 
 ## 🛠️ Skills
