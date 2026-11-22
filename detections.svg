@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-label="Detection library">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="530" viewBox="0 0 1200 530" role="img" aria-label="Detection library">
 <defs><linearGradient id="dbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06122b"/><stop offset="1" stop-color="#0b2a5c"/></linearGradient></defs>
-<rect width="1200" height="500" rx="18" fill="url(#dbg)"/>
+<rect width="1200" height="530" rx="18" fill="url(#dbg)"/>
 <text x="40" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Detection library</text>
 <text x="40" y="84" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#94a3b8">33 detection rules · 33 ATT&amp;CK techniques · 4 projects · auto-updated 2026-11-22</text>
 <rect x="40" y="112" width="255" height="102" rx="12" fill="#0b1a3a" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.5"/>
@@ -29,7 +29,8 @@
 <rect x="348" y="372" width="148" height="26" rx="13" fill="#64748b" fill-opacity="0.18" stroke="#64748b" stroke-width="1.2"/>
 <text x="422.0" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#64748b" text-anchor="middle">Informational 1</text>
 <text x="40" y="426" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">PLATFORMS</text>
-<text x="40" y="448" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Linux 8 · Microsoft Sentinel 7 · Windows 6 · Vmware 3 · WAF 2 · Proxy 1 · Zeek 1 · Apache 1 · Web server 1 · PHP 1</text>
+<text x="40" y="448" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Linux 8 · Microsoft Sentinel 7 · Windows 6 · VMware 3 · WAF 2</text>
+<text x="40" y="468" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Proxy 1 · Zeek 1 · Apache 1 · Web server 1 · PHP 1</text>
 <text x="620" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">TECHNIQUES DETECTED BY TACTIC</text>
 <text x="620" y="140" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">Reconnaissance</text>
 <rect x="810" y="129" width="300" height="14" rx="4" fill="#0f1d3d"/>
@@ -88,5 +89,5 @@
 <rect x="810" y="423" width="300" height="14" rx="4" fill="#0f1d3d"/>
 <rect x="810" y="423" width="85" height="14" rx="4" fill="#22d3ee" fill-opacity="0.61"/>
 <text x="1120" y="435" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">2</text>
-<text x="40" y="482" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b">Splunk searches are mostly Sigma rules converted with pySigma, so they are not added to the rule total. Rules are published for defensive use; test before production.</text>
+<text x="40" y="512" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b">Splunk searches are mostly Sigma rules converted with pySigma, so they are not added to the rule total. Rules are published for defensive use; test before production.</text>
 </svg>
