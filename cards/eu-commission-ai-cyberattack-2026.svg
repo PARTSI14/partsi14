@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="210" viewBox="0 0 600 210" role="img" aria-label="eu-commission-ai-cyberattack-2026">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06122b"/><stop offset="1" stop-color="#0b2a5c"/></linearGradient></defs>
+<clipPath id="c"><rect x="1" y="1" width="598" height="208" rx="16"/></clipPath>
+<rect x="1" y="1" width="598" height="208" rx="16" fill="url(#g)"/>
+<rect x="1" y="1" width="9" height="208" fill="#a78bfa" clip-path="url(#c)"/>
+<rect x="1" y="1" width="598" height="208" rx="16" fill="none" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="1.5"/>
+<rect x="26" y="20" width="167" height="24" rx="12" fill="#a78bfa" fill-opacity="0.18" stroke="#a78bfa" stroke-width="1"/>
+<text x="109" y="36.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5" fill="#a78bfa" text-anchor="middle">THREAT INTELLIGENCE</text>
+<text x="576" y="37" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8" text-anchor="end">Nov 2026</text>
+<text x="26" y="76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff">eu-commission-ai-cyberattack-2026</text>
+<text x="26" y="104" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Threat intelligence assessment of the AI-assisted cyberattack on the</text>
+<text x="26" y="124" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">European Commission (Oct–Nov 2026): key judgements with confidence levels,</text>
+<text x="26" y="144" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">ATT&amp;CK mapping, competing hypotheses and a hunting checklist for AI-drive…</text>
+<rect x="26" y="170" width="95" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
+<text x="74" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">ai-security</text>
+<rect x="127" y="170" width="39" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
+<text x="146" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">cti</text>
+<rect x="172" y="170" width="137" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
+<text x="240" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">incident-analysis</text>
+<rect x="315" y="170" width="102" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
+<text x="366" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">mitre-attack</text>
+<rect x="423" y="170" width="116" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
+<text x="481" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">threat-hunting</text>
+</svg>

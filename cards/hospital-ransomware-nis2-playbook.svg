@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="210" viewBox="0 0 600 210" role="img" aria-label="hospital-ransomware-nis2-playbook">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06122b"/><stop offset="1" stop-color="#0b2a5c"/></linearGradient></defs>
+<clipPath id="c"><rect x="1" y="1" width="598" height="208" rx="16"/></clipPath>
+<rect x="1" y="1" width="598" height="208" rx="16" fill="url(#g)"/>
+<rect x="1" y="1" width="9" height="208" fill="#ef4444" clip-path="url(#c)"/>
+<rect x="1" y="1" width="598" height="208" rx="16" fill="none" stroke="#ef4444" stroke-opacity="0.55" stroke-width="1.5"/>
+<rect x="26" y="20" width="152" height="24" rx="12" fill="#ef4444" fill-opacity="0.18" stroke="#ef4444" stroke-width="1"/>
+<text x="102" y="36.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5" fill="#ef4444" text-anchor="middle">INCIDENT RESPONSE</text>
+<text x="576" y="37" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8" text-anchor="end">Nov 2026</text>
+<text x="26" y="76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff">hospital-ransomware-nis2-playbook</text>
+<text x="26" y="104" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Hospital ransomware incident response playbook with NIS2 24h/72h/1-month</text>
+<text x="26" y="124" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">reporting, templates, ATT&amp;CK v20.1 baseline and Sigma detections. Case</text>
+<text x="26" y="144" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">study: Greiz-Ronneburg, Nov 2026</text>
+<rect x="26" y="170" width="46" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
+<text x="49" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">gdpr</text>
+<rect x="78" y="170" width="88" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
+<text x="122" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">healthcare</text>
+<rect x="172" y="170" width="137" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
+<text x="240" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">incident-response</text>
+<rect x="315" y="170" width="102" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
+<text x="366" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">mitre-attack</text>
+<rect x="423" y="170" width="46" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
+<text x="446" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">nis2</text>
+</svg>
