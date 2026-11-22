@@ -3,8 +3,7 @@
 Cybersecurity portfolio focused on **threat intelligence, detection engineering and incident response**, mapped to MITRE ATT&CK, ATT&CK for ICS, ATLAS and SPARTA.
 
 ## 🎓 Certifications
-
-<img src="certifications.svg" alt="Certified: BTL1, CompTIA Security+, SOC 2 Master Implementer, AWS Security Fundamentals, Harvard CS50 Cybersecurity, Security Awareness Practitioner. In progress: HTB CDSA, CompTIA CySA+" width="100%">
+<img src="certifications.svg" alt="Certified: Blue Team Level 1 (BTL1), CompTIA Security+ (SY0-701), Certified Master SOC 2 Implementer, AWS Security Fundamentals, Microsoft Security, Compliance & Identity Fundamentals, CS50's Introduction to Cybersecurity (Harvard), Certified Security Awareness Practitioner. In progress: HTB CDSA, CompTIA CySA+" width="100%">
 
 <sub>✓ certified · ◷ in progress</sub>
 
