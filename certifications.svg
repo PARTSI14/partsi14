@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="88" viewBox="0 0 1200 88" role="img" aria-label="Certifications">
+<rect x="1" y="1" width="79" height="38" rx="19" fill="#0b2a3a" stroke="#22d3ee" stroke-width="1.5"/>
+<path d="M14 20.0 L18 24.0 L26 15.0" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="34" y="25" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">BTL1</text>
+<rect x="92" y="1" width="176" height="38" rx="19" fill="#0b2a3a" stroke="#22d3ee" stroke-width="1.5"/>
+<path d="M105 20.0 L109 24.0 L117 15.0" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="125" y="25" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">CompTIA Security+</text>
+<rect x="280" y="1" width="228" height="38" rx="19" fill="#0b2a3a" stroke="#22d3ee" stroke-width="1.5"/>
+<path d="M293 20.0 L297 24.0 L305 15.0" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="313" y="25" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">SOC 2 Master Implementer</text>
+<rect x="520" y="1" width="237" height="38" rx="19" fill="#0b2a3a" stroke="#22d3ee" stroke-width="1.5"/>
+<path d="M533 20.0 L537 24.0 L545 15.0" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="553" y="25" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">AWS Security Fundamentals</text>
+<rect x="769" y="1" width="161" height="38" rx="19" fill="#0b2a3a" stroke="#22d3ee" stroke-width="1.5"/>
+<path d="M782 20.0 L786 24.0 L794 15.0" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="802" y="25" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Microsoft SC-900</text>
+<rect x="942" y="1" width="237" height="38" rx="19" fill="#0b2a3a" stroke="#22d3ee" stroke-width="1.5"/>
+<path d="M955 20.0 L959 24.0 L967 15.0" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="975" y="25" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Harvard CS50 Cybersecurity</text>
+<rect x="1" y="49" width="265" height="38" rx="19" fill="#0b2a3a" stroke="#22d3ee" stroke-width="1.5"/>
+<path d="M14 68.0 L18 72.0 L26 63.0" fill="none" stroke="#22d3ee" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="34" y="73" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">Security Awareness Practitioner</text>
+<rect x="278" y="49" width="114" height="38" rx="19" fill="#33280a" stroke="#f59e0b" stroke-width="1.5"/>
+<circle cx="297" cy="68.0" r="7" fill="none" stroke="#f59e0b" stroke-width="2"/><path d="M297 64.0 V68.0 L300 70.0" stroke="#f59e0b" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<text x="311" y="73" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">HTB CDSA</text>
+<rect x="404" y="49" width="155" height="38" rx="19" fill="#33280a" stroke="#f59e0b" stroke-width="1.5"/>
+<circle cx="423" cy="68.0" r="7" fill="none" stroke="#f59e0b" stroke-width="2"/><path d="M423 64.0 V68.0 L426 70.0" stroke="#f59e0b" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+<text x="437" y="73" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#e2e8f0">CompTIA CySA+</text>
+</svg>

@@ -2,6 +2,18 @@
 
 Cybersecurity portfolio focused on **threat intelligence, detection engineering and incident response**, mapped to MITRE ATT&CK, ATT&CK for ICS, ATLAS and SPARTA.
 
+## 🎓 Certifications
+
+<img src="certifications.svg" alt="Certified: BTL1, CompTIA Security+, SOC 2 Master Implementer, AWS Security Fundamentals, Microsoft SC-900, Harvard CS50 Cybersecurity, Security Awareness Practitioner. In progress: HTB CDSA, CompTIA CySA+" width="100%">
+
+<sub>✓ certified · ◷ in progress</sub>
+
+## 🗺️ MITRE ATT&CK Coverage
+
+This map updates itself every day from the ATT&CK Navigator layers in my project repositories.
+
+<img src="attack-coverage.svg" alt="MITRE ATT&CK techniques covered across my projects, by tactic" width="100%">
+
 ## 🔐 Projects
 
 This list updates itself every day from my public repositories.
@@ -24,4 +36,4 @@ Threat Intelligence · Detection Engineering · Incident Response · MITRE ATT&C
 
 ## 📫 Contact
 
-[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN)
+[LinkedIn](https://www.linkedin.com/in/stelios-partsinevelos-03bab297)
