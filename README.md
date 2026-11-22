@@ -35,5 +35,5 @@ This list updates itself every day from my public repositories.
 Threat Intelligence · Detection Engineering · Incident Response · MITRE ATT&CK / ICS / ATLAS · SPARTA · Sigma · KQL · Splunk SPL · NIS2 · GDPR
 
 ## 📫 Contact
+[LinkedIn](https://www.linkedin.com/in/stelios-partsinevelos-03bab297) · [Hack The Box](https://profile.hackthebox.com/profile/019f2d58-8d00-73a8-90a1-81812e161e24)
 
-[LinkedIn](https://www.linkedin.com/in/stelios-partsinevelos-03bab297)
