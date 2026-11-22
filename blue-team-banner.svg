@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Stelios Partsinevelos - Blue Team">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06122b"/>
+      <stop offset="1" stop-color="#0b2a5c"/>
+    </linearGradient>
+        <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="0.45" stop-color="#94a3b8"/>
+      <stop offset="0.7" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="steelV" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#64748b"/>
+      <stop offset="0.5" stop-color="#f1f5f9"/>
+      <stop offset="1" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <radialGradient id="boss" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.4" stop-color="#cbd5e1"/>
+      <stop offset="1" stop-color="#475569"/>
+    </radialGradient>
+    <radialGradient id="rivet" cx="0.35" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#64748b"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#1e3a8a" stroke-width="1" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="18" fill="url(#grid)"/>
+
+  <!-- right: radar -->
+  <defs><radialGradient id="sweep" cx="0" cy="1" r="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient></defs>
+  <g transform="translate(1030 130)">
+    <g fill="none" stroke="#38bdf8" opacity="0.45"><circle r="105"/><circle r="72"/><circle r="38"/>
+      <path d="M-105 0 H105 M0 -105 V105"/></g>
+    <path d="M0 0 L0 -105 A105 105 0 0 1 74 -74 Z" fill="url(#sweep)"/>
+    <circle cx="44" cy="-58" r="6" fill="#ef4444"/><circle cx="44" cy="-58" r="12" fill="none" stroke="#ef4444" opacity="0.6"/>
+    <circle cx="-50" cy="30" r="4" fill="#22c55e"/><circle cx="20" cy="62" r="4" fill="#22c55e"/><circle cx="-30" cy="-60" r="4" fill="#22c55e"/>
+  </g>
+
+  <!-- armour shield (knight's heater shield) -->
+  <g transform="translate(62 22)">
+    <!-- outer steel rim -->
+    <path d="M100 0 C140 0 175 6 200 16 V92 C200 156 160 198 100 222 C40 198 0 156 0 92 V16 C25 6 60 0 100 0 Z" fill="url(#steel)" stroke="#0f172a" stroke-width="3"/>
+    <!-- blue field -->
+    <path d="M100 14 C134 14 164 19 186 27 V93 C186 147 152 184 100 206 C48 184 14 147 14 93 V27 C36 19 66 14 100 14 Z" fill="url(#field)"/>
+    <!-- steel cross bands -->
+    <path d="M90 15 H110 V205 C106 207 103 208 100 209 C97 208 94 207 90 205 Z" fill="url(#steelV)" opacity="0.95"/>
+    <path d="M14 80 H186 V100 H14 Z" fill="url(#steel)" opacity="0.95"/>
+    <!-- central boss -->
+    <circle cx="100" cy="90" r="26" fill="url(#boss)" stroke="#0f172a" stroke-width="2"/>
+    <circle cx="93" cy="82" r="8" fill="#ffffff" opacity="0.55"/>
+    <!-- rivets on the rim -->
+    <g fill="url(#rivet)" stroke="#0f172a" stroke-width="1">
+      <circle cx="22" cy="24" r="5"/><circle cx="60" cy="12" r="5"/><circle cx="140" cy="12" r="5"/><circle cx="178" cy="24" r="5"/>
+      <circle cx="8" cy="60" r="5"/><circle cx="192" cy="60" r="5"/><circle cx="10" cy="120" r="5"/><circle cx="190" cy="120" r="5"/>
+      <circle cx="35" cy="172" r="5"/><circle cx="165" cy="172" r="5"/><circle cx="100" cy="214" r="5"/>
+    </g>
+    <!-- light highlight on the steel -->
+    <path d="M100 4 C64 4 32 10 8 19 V60 C30 40 64 28 100 26 Z" fill="#ffffff" opacity="0.18"/>
+  </g>
+
+  <!-- text -->
+  <text x="300" y="98" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="6" fill="#38bdf8">BLUE TEAM</text>
+  <text x="300" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">Stelios Partsinevelos</text>
+  <text x="300" y="190" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#cbd5e1">Threat Intelligence · Detection Engineering</text>
+  <text x="300" y="220" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#cbd5e1">Incident Response</text>
+</svg>
