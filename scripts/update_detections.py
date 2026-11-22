@@ -24,7 +24,7 @@ SPL_BLOCK_RE = re.compile(r"```spl\s*\n(.*?)```", re.S | re.I)
 LEVELS = ["critical", "high", "medium", "low", "informational"]
 PRETTY = {"windows": "Windows", "linux": "Linux", "macos": "macOS", "waf": "WAF", "php": "PHP", "apache": "Apache",
           "nginx": "Nginx", "webserver": "Web server", "azure": "Azure", "aws": "AWS", "gcp": "GCP", "m365": "Microsoft 365",
-          "okta": "Okta", "zeek": "Zeek", "dns": "DNS", "firewall": "Firewall", "proxy": "Proxy"}
+          "okta": "Okta", "vmware": "VMware", "zeek": "Zeek", "dns": "DNS", "firewall": "Firewall", "proxy": "Proxy"}
 
 
 def http(url, as_json=True):
@@ -114,7 +114,7 @@ def esc(s):
 
 
 def render(inv, mapping):
-    W, H = 1200, 500
+    W, H = 1200, 530
     font = 'font-family="Segoe UI, Helvetica, Arial, sans-serif"'
     today = datetime.date.today().isoformat()
     techmap = mapping["enterprise"]["techniques"]
@@ -158,8 +158,20 @@ def render(inv, mapping):
         o.append(f'<text x="{x + w / 2}" y="{y0 + 30}" {font} font-size="13" font-weight="600" fill="{sev_cols[lvl]}" text-anchor="middle">{label}</text>')
         x += w + 8
     o.append(f'<text x="40" y="{y0 + 66}" {font} font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">PLATFORMS</text>')
-    plats = " · ".join(f"{esc(k)} {v}" for k, v in sorted(inv["platforms"].items(), key=lambda kv: -kv[1]))
-    o.append(f'<text x="40" y="{y0 + 88}" {font} font-size="14" fill="#cbd5e1">{plats}</text>')
+    # wrap the platform list so it never runs into the tactic bars on the right (max ~62 chars per line)
+    items = [f"{k} {v}" for k, v in sorted(inv["platforms"].items(), key=lambda kv: -kv[1])]
+    lines, cur = [], ""
+    for it in items:
+        cand = f"{cur} · {it}" if cur else it
+        if len(cand) > 62 and cur:
+            lines.append(cur)
+            cur = it
+        else:
+            cur = cand
+    if cur:
+        lines.append(cur)
+    for j, line in enumerate(lines[:3]):
+        o.append(f'<text x="40" y="{y0 + 88 + j * 20}" {font} font-size="14" fill="#cbd5e1">{esc(line)}</text>')
 
     # tactic bars
     x0, top, row, label_w, bar_max = 620, 126, 21, 190, 300
