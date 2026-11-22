@@ -2,34 +2,36 @@
 <defs><linearGradient id="dbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06122b"/><stop offset="1" stop-color="#0b2a5c"/></linearGradient></defs>
 <rect width="1200" height="530" rx="18" fill="url(#dbg)"/>
 <text x="40" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Detection library</text>
-<text x="40" y="84" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#94a3b8">33 detection rules · 33 ATT&amp;CK techniques · 4 projects · auto-updated 2026-11-22</text>
+<text x="40" y="84" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#94a3b8">38 detection rules · 39 ATT&amp;CK techniques · 4 projects · auto-updated 2026-11-22</text>
 <rect x="40" y="112" width="255" height="102" rx="12" fill="#0b1a3a" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.5"/>
-<text x="60" y="164" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#22d3ee">24</text>
+<text x="60" y="164" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#22d3ee">28</text>
 <text x="60" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#e2e8f0">Sigma rules</text>
-<text x="60" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">+2 correlation</text>
+<text x="60" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">+3 correlation</text>
 <rect x="310" y="112" width="255" height="102" rx="12" fill="#0b1a3a" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.5"/>
 <text x="330" y="164" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#22d3ee">7</text>
 <text x="330" y="188" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#e2e8f0">KQL queries</text>
 <text x="330" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Microsoft Sentinel</text>
 <rect x="40" y="228" width="255" height="102" rx="12" fill="#0b1a3a" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.5"/>
-<text x="60" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#22d3ee">24</text>
+<text x="60" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#22d3ee">28</text>
 <text x="60" y="304" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#e2e8f0">Splunk searches</text>
 <text x="60" y="321" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">SPL</text>
 <rect x="310" y="228" width="255" height="102" rx="12" fill="#0b1a3a" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.5"/>
-<text x="330" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#22d3ee">33</text>
+<text x="330" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#22d3ee">39</text>
 <text x="330" y="304" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#e2e8f0">ATT&amp;CK techniques</text>
 <text x="330" y="321" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">detected</text>
 <text x="40" y="360" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">SIGMA SEVERITY</text>
 <rect x="40" y="372" width="108" height="26" rx="13" fill="#ef4444" fill-opacity="0.18" stroke="#ef4444" stroke-width="1.2"/>
 <text x="94.0" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ef4444" text-anchor="middle">Critical 6</text>
 <rect x="156" y="372" width="84" height="26" rx="13" fill="#f97316" fill-opacity="0.18" stroke="#f97316" stroke-width="1.2"/>
-<text x="198.0" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#f97316" text-anchor="middle">High 13</text>
+<text x="198.0" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#f97316" text-anchor="middle">High 16</text>
 <rect x="248" y="372" width="92" height="26" rx="13" fill="#f59e0b" fill-opacity="0.18" stroke="#f59e0b" stroke-width="1.2"/>
-<text x="294.0" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#f59e0b" text-anchor="middle">Medium 6</text>
-<rect x="348" y="372" width="148" height="26" rx="13" fill="#64748b" fill-opacity="0.18" stroke="#64748b" stroke-width="1.2"/>
-<text x="422.0" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#64748b" text-anchor="middle">Informational 1</text>
+<text x="294.0" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#f59e0b" text-anchor="middle">Medium 7</text>
+<rect x="348" y="372" width="68" height="26" rx="13" fill="#22c55e" fill-opacity="0.18" stroke="#22c55e" stroke-width="1.2"/>
+<text x="382.0" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#22c55e" text-anchor="middle">Low 1</text>
+<rect x="424" y="372" width="148" height="26" rx="13" fill="#64748b" fill-opacity="0.18" stroke="#64748b" stroke-width="1.2"/>
+<text x="498.0" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#64748b" text-anchor="middle">Informational 1</text>
 <text x="40" y="426" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">PLATFORMS</text>
-<text x="40" y="448" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Linux 8 · Microsoft Sentinel 7 · Windows 6 · VMware 3 · WAF 2</text>
+<text x="40" y="448" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Linux 9 · Windows 9 · Microsoft Sentinel 7 · VMware 3 · WAF 2</text>
 <text x="40" y="468" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Proxy 1 · Zeek 1 · Apache 1 · Web server 1 · PHP 1</text>
 <text x="620" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">TECHNIQUES DETECTED BY TACTIC</text>
 <text x="620" y="140" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">Reconnaissance</text>
@@ -68,23 +70,24 @@
 <text x="1120" y="309" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">6</text>
 <text x="620" y="329" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">Discovery</text>
 <rect x="810" y="318" width="300" height="14" rx="4" fill="#0f1d3d"/>
-<rect x="810" y="318" width="42" height="14" rx="4" fill="#22d3ee" fill-opacity="0.53"/>
-<text x="1120" y="330" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">1</text>
+<rect x="810" y="318" width="171" height="14" rx="4" fill="#22d3ee" fill-opacity="0.76"/>
+<text x="1120" y="330" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">4</text>
 <text x="620" y="350" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">Lateral Movement</text>
 <rect x="810" y="339" width="300" height="14" rx="4" fill="#0f1d3d"/>
 <rect x="810" y="339" width="128" height="14" rx="4" fill="#22d3ee" fill-opacity="0.69"/>
 <text x="1120" y="351" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">3</text>
 <text x="620" y="371" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">Collection</text>
 <rect x="810" y="360" width="300" height="14" rx="4" fill="#0f1d3d"/>
-<rect x="810" y="360" width="42" height="14" rx="4" fill="#22d3ee" fill-opacity="0.53"/>
-<text x="1120" y="372" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">1</text>
+<rect x="810" y="360" width="85" height="14" rx="4" fill="#22d3ee" fill-opacity="0.61"/>
+<text x="1120" y="372" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">2</text>
 <text x="620" y="392" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">Command and Control</text>
 <rect x="810" y="381" width="300" height="14" rx="4" fill="#0f1d3d"/>
 <rect x="810" y="381" width="128" height="14" rx="4" fill="#22d3ee" fill-opacity="0.69"/>
 <text x="1120" y="393" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">3</text>
 <text x="620" y="413" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">Exfiltration</text>
 <rect x="810" y="402" width="300" height="14" rx="4" fill="#0f1d3d"/>
-<text x="1120" y="414" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#475569">0</text>
+<rect x="810" y="402" width="85" height="14" rx="4" fill="#22d3ee" fill-opacity="0.61"/>
+<text x="1120" y="414" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">2</text>
 <text x="620" y="434" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">Impact</text>
 <rect x="810" y="423" width="300" height="14" rx="4" fill="#0f1d3d"/>
 <rect x="810" y="423" width="85" height="14" rx="4" fill="#22d3ee" fill-opacity="0.61"/>
