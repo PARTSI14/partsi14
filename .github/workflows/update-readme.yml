@@ -40,6 +40,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md attack-coverage.svg detections.svg
+          git add README.md attack-coverage.svg detections.svg cards
           git diff --cached --quiet || git commit -m "Auto-update profile: projects, ATT&CK coverage, detections"
           git push
