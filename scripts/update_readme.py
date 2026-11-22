@@ -11,7 +11,7 @@ import urllib.request
 USER = os.environ.get("GH_USER", "PARTSI14")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 START, END = "<!-- PROJECTS:START -->", "<!-- PROJECTS:END -->"
-SKIP = {USER.lower()}  # the profile repo itself
+SKIP = {USER.lower(), "dga_classification.ipynb", "dga-edited-notebook", "fix_notebook.py", "iforest-and-ecod", "anomaly_detection.ipynb-lab", "lab-stelios"}
 
 
 def fetch_repos():
