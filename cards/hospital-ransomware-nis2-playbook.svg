@@ -21,4 +21,6 @@
 <text x="366" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">mitre-attack</text>
 <rect x="423" y="170" width="46" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
 <text x="446" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">nis2</text>
+<rect x="475" y="170" width="74" height="22" rx="11" fill="#0f2a5a" stroke="#3b82f6" stroke-opacity="0.6" stroke-width="1"/>
+<text x="512" y="185" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#bfdbfe" text-anchor="middle">playbook</text>
 </svg>
