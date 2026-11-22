@@ -29,7 +29,7 @@
 <rect x="340" y="372" width="148" height="26" rx="13" fill="#64748b" fill-opacity="0.18" stroke="#64748b" stroke-width="1.2"/>
 <text x="414.0" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#64748b" text-anchor="middle">Informational 1</text>
 <text x="40" y="426" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">PLATFORMS</text>
-<text x="40" y="448" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Microsoft Sentinel 7 · Windows 6 · WAF 2 · Apache 1 · Linux 1 · Web server 1 · PHP 1</text>
+<text x="40" y="448" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Microsoft Sentinel 7 · Windows 6 · WAF 2 · Apache 1 · Web server 1 · PHP 1 · Linux 1</text>
 <text x="620" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">TECHNIQUES DETECTED BY TACTIC</text>
 <text x="620" y="140" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">Reconnaissance</text>
 <rect x="810" y="129" width="300" height="14" rx="4" fill="#0f1d3d"/>
