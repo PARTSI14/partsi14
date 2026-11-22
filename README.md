@@ -1,4 +1,4 @@
-# Hi, I'm Stelios Partsinevelos 👋
+<img src="blue-team-banner.svg" alt="Blue Team - Stelios Partsinevelos" width="100%">
 
 Cybersecurity portfolio focused on **threat intelligence, detection engineering and incident response**, mapped to MITRE ATT&CK, ATT&CK for ICS, ATLAS and SPARTA.
 
