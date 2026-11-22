@@ -4,7 +4,7 @@ Cybersecurity portfolio focused on **threat intelligence, detection engineering 
 
 ## 🎓 Certifications
 
-<img src="certifications.svg" alt="Certified: BTL1, CompTIA Security+, SOC 2 Master Implementer, AWS Security Fundamentals, Microsoft SC-900, Harvard CS50 Cybersecurity, Security Awareness Practitioner. In progress: HTB CDSA, CompTIA CySA+" width="100%">
+<img src="certifications.svg" alt="Certified: BTL1, CompTIA Security+, SOC 2 Master Implementer, AWS Security Fundamentals, Harvard CS50 Cybersecurity, Security Awareness Practitioner. In progress: HTB CDSA, CompTIA CySA+" width="100%">
 
 <sub>✓ certified · ◷ in progress</sub>
 
