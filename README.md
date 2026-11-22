@@ -14,6 +14,12 @@ This map updates itself every day from the ATT&CK Navigator layers in my project
 
 <img src="attack-coverage.svg" alt="MITRE ATT&CK techniques covered across my projects, by tactic" width="100%">
 
+## 🛡️ Detection Library
+
+Every Sigma, KQL and Splunk rule published in my repositories, counted automatically every day.
+
+<img src="detections.svg" alt="Detection library: Sigma rules, KQL queries and Splunk searches across my projects, with ATT&CK techniques detected by tactic" width="100%">
+
 ## 🔐 Projects
 
 This list updates itself every day from my public repositories.
