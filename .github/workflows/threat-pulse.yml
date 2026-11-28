@@ -1,0 +1,40 @@
+name: Update threat pulse
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"   # every 6 hours (00:23, 06:23, 12:23, 18:23 UTC)
+  workflow_dispatch:           # "Run workflow" button for an instant update
+  push:
+    paths:
+      - scripts/update_threats.py
+      - .github/workflows/threat-pulse.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: threat-pulse
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Build threat pulse card
+        run: python scripts/update_threats.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          [ -f threat-pulse.svg ] || exit 0   # every source failed on the very first run
+          git add threat-pulse.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "Auto-update threat pulse"
+          # the daily profile workflow may have pushed in the meantime
+          git pull --rebase
+          git push
