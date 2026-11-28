@@ -13,6 +13,7 @@ Click a card to open the project. This list updates itself every day from my pub
 
 <!-- PROJECTS:START -->
 <p>
+<a href="https://github.com/PARTSI14/detection-as-code"><img src="cards/detection-as-code.svg" width="49%" alt="detection-as-code: Detection-as-Code pipeline: Sigma rules validated, converted and tested in GitHub Actions"></a>
 <a href="https://github.com/PARTSI14/sandworm-ukraine-grid-ics-attacks"><img src="cards/sandworm-ukraine-grid-ics-attacks.svg" width="49%" alt="sandworm-ukraine-grid-ics-attacks: Sandworm vs Ukraine's power grid 2016-2022: Industroyer, Industroyer2 and the MicroSCADA LotL attack. ATT&amp;CK for ICS + Enterprise layers (v20.1), 9 Sigma rules + Splunk, IOCs."></a>
 <a href="https://github.com/PARTSI14/armory-castle-vcenter-detections"><img src="cards/armory-castle-vcenter-detections.svg" width="49%" alt="armory-castle-vcenter-detections: Detection engineering for the Armory Castle vCenter zero-day (CVE-2026-123890, Nov 2026): 13 Sigma rules + Splunk SPL, ATT&amp;CK v20.1 layer, hunting &amp; hardening checklist for vSphere."></a>
 <a href="https://github.com/PARTSI14/hospital-ransomware-nis2-playbook"><img src="cards/hospital-ransomware-nis2-playbook.svg" width="49%" alt="hospital-ransomware-nis2-playbook: Hospital ransomware incident response playbook with NIS2 24h/72h/1-month reporting, templates, ATT&amp;CK v20.1 baseline and Sigma detections. Case study: Greiz-Ronneburg, Nov 2026"></a>
