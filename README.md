@@ -2,6 +2,9 @@
 
 Cybersecurity portfolio focused on **threat intelligence, detection engineering and incident response**, mapped to MITRE ATT&CK, ATT&CK for ICS, ATLAS and SPARTA.
 
+## ⭐ Featured project
+
+<a href="https://github.com/PARTSI14/detection-as-code"><img src="featured-detection-as-code.png" alt="Featured project detection-as-code: 37 Sigma rules from four attack case studies in one repository, checked by GitHub Actions on every change. 158 test cases, 6 bugs found (4 fixed, 2 accepted), about 30 seconds per run. Converted to Splunk SPL, Sentinel KQL and Elastic." width="100%"></a>
 ## 🎓 Certifications
 <img src="certifications.svg" alt="Certified: Blue Team Level 1 (BTL1), CompTIA Security+ (SY0-701), Certified Master SOC 2 Implementer, AWS Security Fundamentals, Microsoft Security, Compliance & Identity Fundamentals, CS50's Introduction to Cybersecurity (Harvard), Certified Security Awareness Practitioner. In progress: HTB CDSA, CompTIA CySA+" width="100%">
 
