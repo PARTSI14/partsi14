@@ -1,73 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="Threat pulse: ransomware victims, most scanned ports and newly exploited vulnerabilities in the last 7 days">
-<defs><linearGradient id="tpg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06122b"/><stop offset="1" stop-color="#0b2a5c"/></linearGradient></defs>
+<defs><linearGradient id="tpg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#140a1f"/><stop offset="1" stop-color="#3a0d24"/></linearGradient></defs>
 <rect width="1200" height="470" rx="18" fill="url(#tpg)"/>
 <circle cx="48" cy="45" r="7" fill="#ef4444"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
 <text x="66" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Threat pulse</text>
-<text x="232" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#94a3b8">last 7 days · updated 28 Nov 2026, 14:45 UTC · refreshes every 6 hours</text>
-<rect x="30" y="78" width="420" height="330" rx="12" fill="#0b1a3a" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1.2"/>
-<text x="50" y="106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">RANSOMWARE LEAK-SITE CLAIMS</text>
-<text x="50" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#22d3ee">278</text>
-<text x="152" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1">victims claimed this week</text>
-<text x="50" y="199" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">United States</text>
-<rect x="200" y="187" width="170" height="14" rx="4" fill="#0f1d3d"/>
-<rect x="200" y="187" width="170" height="14" rx="4" fill="#22d3ee" fill-opacity="0.8"/>
+<text x="232" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#a8a2b8">last 7 days · updated 28 Nov 2026, 14:54 UTC · refreshes every 6 hours</text>
+<rect x="30" y="78" width="420" height="330" rx="12" fill="#1c0d24" stroke="#f43f5e" stroke-opacity="0.45" stroke-width="1.2"/>
+<text x="50" y="106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#fb7185">RANSOMWARE LEAK-SITE CLAIMS</text>
+<text x="50" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#fb923c">278</text>
+<text x="152" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#e2d9e6">victims claimed this week</text>
+<text x="50" y="199" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">United States</text>
+<rect x="200" y="187" width="170" height="14" rx="4" fill="#2a1430"/>
+<rect x="200" y="187" width="170" height="14" rx="4" fill="#fb923c" fill-opacity="0.8"/>
 <text x="380" y="199" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">101</text>
-<text x="50" y="226" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Germany</text>
-<rect x="200" y="214" width="170" height="14" rx="4" fill="#0f1d3d"/>
-<rect x="200" y="214" width="26" height="14" rx="4" fill="#22d3ee" fill-opacity="0.8"/>
+<text x="50" y="226" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">Germany</text>
+<rect x="200" y="214" width="170" height="14" rx="4" fill="#2a1430"/>
+<rect x="200" y="214" width="26" height="14" rx="4" fill="#fb923c" fill-opacity="0.8"/>
 <text x="380" y="226" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">16</text>
-<text x="50" y="253" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Canada</text>
-<rect x="200" y="241" width="170" height="14" rx="4" fill="#0f1d3d"/>
-<rect x="200" y="241" width="21" height="14" rx="4" fill="#22d3ee" fill-opacity="0.8"/>
+<text x="50" y="253" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">Canada</text>
+<rect x="200" y="241" width="170" height="14" rx="4" fill="#2a1430"/>
+<rect x="200" y="241" width="21" height="14" rx="4" fill="#fb923c" fill-opacity="0.8"/>
 <text x="380" y="253" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">13</text>
-<text x="50" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">United Kingdom</text>
-<rect x="200" y="268" width="170" height="14" rx="4" fill="#0f1d3d"/>
-<rect x="200" y="268" width="20" height="14" rx="4" fill="#22d3ee" fill-opacity="0.8"/>
+<text x="50" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">United Kingdom</text>
+<rect x="200" y="268" width="170" height="14" rx="4" fill="#2a1430"/>
+<rect x="200" y="268" width="20" height="14" rx="4" fill="#fb923c" fill-opacity="0.8"/>
 <text x="380" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">12</text>
-<text x="50" y="307" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">India</text>
-<rect x="200" y="295" width="170" height="14" rx="4" fill="#0f1d3d"/>
-<rect x="200" y="295" width="16" height="14" rx="4" fill="#22d3ee" fill-opacity="0.8"/>
+<text x="50" y="307" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">India</text>
+<rect x="200" y="295" width="170" height="14" rx="4" fill="#2a1430"/>
+<rect x="200" y="295" width="16" height="14" rx="4" fill="#fb923c" fill-opacity="0.8"/>
 <text x="380" y="307" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#ffffff">10</text>
-<text x="50" y="342" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Greece: <tspan font-weight="700" fill="#ffffff">0</tspan></text>
-<text x="50" y="368" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Most active: <tspan font-weight="600" fill="#ffffff">n0n, safepay, thegentlemen</tspan></text>
-<text x="50" y="392" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">Counts only. Victim names are not republished.</text>
-<rect x="465" y="78" width="300" height="330" rx="12" fill="#0b1a3a" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1.2"/>
-<text x="485" y="106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">MOST SCANNED PORTS</text>
+<text x="50" y="342" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">Greece: <tspan font-weight="700" fill="#ffffff">0</tspan></text>
+<text x="50" y="368" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">Most active: <tspan font-weight="600" fill="#ffffff">n0n, safepay, thegentlemen</tspan></text>
+<text x="50" y="392" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8b7f99">Counts only. Victim names are not republished.</text>
+<rect x="465" y="78" width="300" height="330" rx="12" fill="#1c0d24" stroke="#f43f5e" stroke-opacity="0.45" stroke-width="1.2"/>
+<text x="485" y="106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#fb7185">MOST SCANNED PORTS</text>
 <text x="485" y="146" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">22</text>
-<text x="565" y="145" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">SSH</text>
-<rect x="485" y="154" width="260" height="8" rx="4" fill="#0f1d3d"/>
-<rect x="485" y="154" width="240" height="8" rx="4" fill="#22d3ee" fill-opacity="0.8"/>
+<text x="565" y="145" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">SSH</text>
+<rect x="485" y="154" width="260" height="8" rx="4" fill="#2a1430"/>
+<rect x="485" y="154" width="240" height="8" rx="4" fill="#fb923c" fill-opacity="0.8"/>
 <text x="485" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">443</text>
-<text x="565" y="197" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">HTTPS</text>
-<rect x="485" y="206" width="260" height="8" rx="4" fill="#0f1d3d"/>
-<rect x="485" y="206" width="190" height="8" rx="4" fill="#22d3ee" fill-opacity="0.8"/>
+<text x="565" y="197" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">HTTPS</text>
+<rect x="485" y="206" width="260" height="8" rx="4" fill="#2a1430"/>
+<rect x="485" y="206" width="190" height="8" rx="4" fill="#fb923c" fill-opacity="0.8"/>
 <text x="485" y="250" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">2222</text>
-<text x="565" y="249" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">SSH alt</text>
-<rect x="485" y="258" width="260" height="8" rx="4" fill="#0f1d3d"/>
-<rect x="485" y="258" width="164" height="8" rx="4" fill="#22d3ee" fill-opacity="0.8"/>
+<text x="565" y="249" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">SSH alt</text>
+<rect x="485" y="258" width="260" height="8" rx="4" fill="#2a1430"/>
+<rect x="485" y="258" width="164" height="8" rx="4" fill="#fb923c" fill-opacity="0.8"/>
 <text x="485" y="302" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">8080</text>
-<text x="565" y="301" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">HTTP proxy</text>
-<rect x="485" y="310" width="260" height="8" rx="4" fill="#0f1d3d"/>
-<rect x="485" y="310" width="120" height="8" rx="4" fill="#22d3ee" fill-opacity="0.8"/>
+<text x="565" y="301" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">HTTP proxy</text>
+<rect x="485" y="310" width="260" height="8" rx="4" fill="#2a1430"/>
+<rect x="485" y="310" width="120" height="8" rx="4" fill="#fb923c" fill-opacity="0.8"/>
 <text x="485" y="354" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">23</text>
-<text x="565" y="353" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#cbd5e1">Telnet</text>
-<rect x="485" y="362" width="260" height="8" rx="4" fill="#0f1d3d"/>
-<rect x="485" y="362" width="106" height="8" rx="4" fill="#22d3ee" fill-opacity="0.8"/>
-<text x="485" y="392" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">By reports from DShield sensors, latest day.</text>
-<rect x="780" y="78" width="390" height="330" rx="12" fill="#0b1a3a" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1.2"/>
-<text x="800" y="106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">NEWLY EXPLOITED (CISA KEV)</text>
-<text x="800" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#22d3ee">18</text>
-<text x="872" y="146" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#cbd5e1">added this week</text>
-<text x="872" y="166" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#94a3b8">0 used by ransomware · 1808 in catalog</text>
+<text x="565" y="353" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2d9e6">Telnet</text>
+<rect x="485" y="362" width="260" height="8" rx="4" fill="#2a1430"/>
+<rect x="485" y="362" width="106" height="8" rx="4" fill="#fb923c" fill-opacity="0.8"/>
+<text x="485" y="392" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8b7f99">By reports from DShield sensors, latest day.</text>
+<rect x="780" y="78" width="390" height="330" rx="12" fill="#1c0d24" stroke="#f43f5e" stroke-opacity="0.45" stroke-width="1.2"/>
+<text x="800" y="106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#fb7185">NEWLY EXPLOITED (CISA KEV)</text>
+<text x="800" y="158" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#fb923c">18</text>
+<text x="872" y="146" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#e2d9e6">added this week</text>
+<text x="872" y="166" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#a8a2b8">0 used by ransomware · 1808 in catalog</text>
 <text x="800" y="210" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">CVE-2026-136716</text>
-<text x="1150" y="210" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8" text-anchor="end">2026-11-27</text>
-<text x="800" y="230" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">Drupal Core</text>
+<text x="1150" y="210" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#a8a2b8" text-anchor="end">2026-11-27</text>
+<text x="800" y="230" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#e2d9e6">Drupal Core</text>
 <text x="800" y="272" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">CVE-2026-129243</text>
-<text x="1150" y="272" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8" text-anchor="end">2026-11-27</text>
-<text x="800" y="292" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">OSGeo GeoServer</text>
+<text x="1150" y="272" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#a8a2b8" text-anchor="end">2026-11-27</text>
+<text x="800" y="292" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#e2d9e6">OSGeo GeoServer</text>
 <text x="800" y="334" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">CVE-2026-120705</text>
-<text x="1150" y="334" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8" text-anchor="end">2026-11-27</text>
-<text x="800" y="354" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">OSGeo GeoServer</text>
-<text x="800" y="392" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">Vulnerabilities confirmed as exploited in the wild.</text>
-<text x="30" y="446" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#64748b">Sources: Ransomware.live · SANS Technology Institute, Internet Storm Center (isc.sans.edu) · CISA Known Exploited Vulnerabilities. Leak-site claims are unverified by nature.</text>
+<text x="1150" y="334" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#a8a2b8" text-anchor="end">2026-11-27</text>
+<text x="800" y="354" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#e2d9e6">OSGeo GeoServer</text>
+<text x="800" y="392" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#8b7f99">Vulnerabilities confirmed as exploited in the wild.</text>
+<text x="30" y="446" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8b7f99">Sources: Ransomware.live · SANS Technology Institute, Internet Storm Center (isc.sans.edu) · CISA Known Exploited Vulnerabilities. Leak-site claims are unverified by nature.</text>
 </svg>
