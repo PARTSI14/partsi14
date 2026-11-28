@@ -2,7 +2,7 @@
 
 ## 👋 About me
 
-SOC analyst in transition, with **25+ years in payment systems**: POS, card services and e-commerce at Euronet and Eurobank. In production I monitor transaction activity for anomalies, triage incidents, escalate them under time pressure and apply **PCI DSS** controls. It is the same loop a SOC runs, on a different kind of data.
+SOC analyst in transition, with **25+ years in payment systems**: POS, card services and e-commerce at Euronet Merchant Services (EMS), Euronet Card Services, Eurobank and Ergasias Bank. In production I monitor transaction activity for anomalies, triage incidents, escalate them under time pressure and apply **PCI DSS** controls. It is the same loop a SOC runs, on a different kind of data.
 
 My SOC skills come from hands-on labs (BTL1, Hack The Box CDSA path, CySA+) and from the projects on this page: detection rules for real attacks, unit-tested in CI and mapped to MITRE ATT&CK, ATT&CK for ICS, ATLAS and SPARTA.
 
