@@ -1,6 +1,14 @@
 <img src="blue-team-banner.svg" alt="Blue Team - Stelios Partsinevelos" width="100%">
 
-Cybersecurity portfolio focused on **threat intelligence, detection engineering and incident response**, mapped to MITRE ATT&CK, ATT&CK for ICS, ATLAS and SPARTA.
+## 👋 About me
+
+SOC analyst in transition, with **25+ years in payment systems**: POS, card services and e-commerce at Euronet and Eurobank. In production I monitor transaction activity for anomalies, triage incidents, escalate them under time pressure and apply **PCI DSS** controls. It is the same loop a SOC runs, on a different kind of data.
+
+My SOC skills come from hands-on labs (BTL1, Hack The Box CDSA path, CySA+) and from the projects on this page: detection rules for real attacks, unit-tested in CI and mapped to MITRE ATT&CK, ATT&CK for ICS, ATLAS and SPARTA.
+
+- 🎯 **Looking for:** SOC Analyst (Tier 1) roles, in Athens or remote
+- 🔭 **Currently:** HTB CDSA exam · CompTIA CySA+ · growing my [detection-as-code](https://github.com/PARTSI14/detection-as-code) pipeline
+- 🧭 **Production vs lab:** I keep them apart. Payment-systems work is production experience; SIEM, DFIR and threat hunting come from labs and the projects below.
 
 ## ⭐ Featured project
 
@@ -49,9 +57,19 @@ What attackers have been doing this week, from public threat intelligence feeds.
 
 ## 🛠️ Skills
 
-Threat Intelligence · Detection Engineering · Incident Response · MITRE ATT&CK / ICS / ATLAS · SPARTA · Sigma · KQL · Splunk SPL · NIS2 · GDPR
+| Area | Skills |
+|---|---|
+| **Detection engineering** | Sigma · Splunk SPL · KQL (Sentinel, Elastic) · pySigma · detection-as-code · unit-testing detection rules |
+| **SIEM & log analysis** | Splunk · Elastic / Kibana · Microsoft Sentinel · Windows Security & Sysmon logs · Linux auth/syslog · Zeek · Suricata · Wireshark |
+| **DFIR & threat hunting** | Velociraptor · Volatility · KAPE · Chainsaw · YARA · CyberChef · NIST SP 800-61 incident response |
+| **Threat intelligence** | MITRE ATT&CK (Enterprise and ICS) · ATLAS · SPARTA · CISA KEV · ransomware and scanning feeds |
+| **Automation** | Python · GitHub Actions (CI/CD) · Git |
+| **Compliance** | PCI DSS (production) · ISO 27001 · NIS2 · GDPR · SOC 2 |
 
 ## 📫 Contact
+
+🎯 Open to **SOC Analyst** roles in Athens or remote. The quickest way to reach me is LinkedIn.
+
 [LinkedIn](https://www.linkedin.com/in/stelios-partsinevelos-03bab297) · [Hack The Box](https://profile.hackthebox.com/profile/019f2d58-8d00-73a8-90a1-81812e161e24)
 
 <sub>Banner, emblem and profile graphics © 2026 Stelios Partsinevelos. All rights reserved. Not covered by the MIT license of my project repositories.</sub>
