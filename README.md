@@ -41,6 +41,11 @@ Every Sigma, KQL and Splunk rule published in my repositories, counted automatic
 
 <img src="detections.svg" alt="Detection library: Sigma rules, KQL queries and Splunk searches across my projects, with ATT&CK techniques detected by tactic" width="100%">
 
+## 📡 Threat Pulse
+
+What attackers have been doing this week, from public threat intelligence feeds. Refreshed automatically every 6 hours.
+
+<img src="threat-pulse.svg" alt="Threat pulse for the last 7 days: ransomware leak-site claims by country, most scanned ports from SANS ISC, and vulnerabilities newly added to the CISA KEV catalog" width="100%">
 
 ## 🛠️ Skills
 
