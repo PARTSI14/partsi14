@@ -178,3 +178,40 @@ def render(inv, mapping):
         else:
             cur = cand
     if cur:
+        lines.append(cur)
+    for j, line in enumerate(lines[:3]):
+        o.append(f'<text x="40" y="{y0 + 88 + j * 20}" {font} font-size="14" fill="#cbd5e1">{esc(line)}</text>')
+
+    # tactic bars
+    x0, top, row, label_w, bar_max = 620, 126, 21, 190, 300
+    o.append(f'<text x="{x0}" y="{top - 14}" {font} font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">TECHNIQUES DETECTED BY TACTIC</text>')
+    peak = max([1] + list(counts.values()))
+    for i, (short, name) in enumerate(tactics):
+        y = top + i * row
+        v = counts[short]
+        w = 0 if v == 0 else max(6, int(bar_max * v / peak))
+        o.append(f'<text x="{x0}" y="{y + 14}" {font} font-size="13" fill="#cbd5e1">{esc(name)}</text>')
+        o.append(f'<rect x="{x0 + label_w}" y="{y + 3}" width="{bar_max}" height="14" rx="4" fill="#0f1d3d"/>')
+        if w:
+            o.append(f'<rect x="{x0 + label_w}" y="{y + 3}" width="{w}" height="14" rx="4" fill="#22d3ee" fill-opacity="{0.45 + 0.55 * v / peak:.2f}"/>')
+        o.append(f'<text x="{x0 + label_w + bar_max + 10}" y="{y + 15}" {font} font-size="12" font-weight="600" fill="{"#e2e8f0" if v else "#475569"}">{v}</text>')
+    o.append(f'<text x="40" y="{H - 18}" {font} font-size="12" fill="#64748b">Splunk searches are mostly Sigma rules converted with pySigma, so they are not added to the rule total. Rules are published for defensive use; test before production.</text>')
+    o.append("</svg>")
+    return "\n".join(o)
+
+
+def main(files=None):
+    mapping = json.load(open(os.path.join(os.path.dirname(__file__), "..", "data", "attack-tactics.json"), encoding="utf-8"))
+    inv = analyse(files if files is not None else collect(fetch_repos()))
+    svg = render(inv, mapping)
+    old = open("detections.svg", encoding="utf-8").read() if os.path.exists("detections.svg") else ""
+    strip = lambda s: "\n".join(l for l in s.splitlines() if "auto-updated" not in l)
+    if strip(old) != strip(svg):
+        open("detections.svg", "w", encoding="utf-8").write(svg)
+        print("detections.svg updated")
+    else:
+        print("No detection changes")
+
+
+if __name__ == "__main__":
+    main()
