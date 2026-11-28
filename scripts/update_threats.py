@@ -143,18 +143,18 @@ def clip(s, n):
 def render(rw, ports, kv, now):
     W, H = 1200, 470
     font = 'font-family="Segoe UI, Helvetica, Arial, sans-serif"'
-    cyan, grey, soft, white = "#22d3ee", "#94a3b8", "#cbd5e1", "#ffffff"
+    cyan, grey, soft, white = "#fb923c", "#a8a2b8", "#e2d9e6", "#ffffff"  # accent: alert orange
     stamp = now.strftime("%d %b %Y, %H:%M UTC")
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Threat pulse: ransomware victims, most scanned ports and newly exploited vulnerabilities in the last {DAYS} days">',
-         '<defs><linearGradient id="tpg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06122b"/><stop offset="1" stop-color="#0b2a5c"/></linearGradient></defs>',
+         '<defs><linearGradient id="tpg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#140a1f"/><stop offset="1" stop-color="#3a0d24"/></linearGradient></defs>',
          f'<rect width="{W}" height="{H}" rx="18" fill="url(#tpg)"/>',
          f'<circle cx="48" cy="45" r="7" fill="#ef4444"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>',
          f'<text x="66" y="52" {font} font-size="26" font-weight="700" fill="{white}">Threat pulse</text>',
          f'<text x="232" y="52" {font} font-size="16" fill="{grey}">last {DAYS} days · updated {stamp} · refreshes every 6 hours</text>']
 
     def panel(x, w, title):
-        o.append(f'<rect x="{x}" y="78" width="{w}" height="330" rx="12" fill="#0b1a3a" stroke="{cyan}" stroke-opacity="0.35" stroke-width="1.2"/>')
-        o.append(f'<text x="{x + 20}" y="106" {font} font-size="13" font-weight="700" letter-spacing="2" fill="#38bdf8">{title}</text>')
+        o.append(f'<rect x="{x}" y="78" width="{w}" height="330" rx="12" fill="#1c0d24" stroke="#f43f5e" stroke-opacity="0.45" stroke-width="1.2"/>')
+        o.append(f'<text x="{x + 20}" y="106" {font} font-size="13" font-weight="700" letter-spacing="2" fill="#fb7185">{title}</text>')
 
     def unavailable(x):
         o.append(f'<text x="{x + 20}" y="160" {font} font-size="15" fill="{grey}">Source unavailable in this run.</text>')
@@ -172,14 +172,14 @@ def render(rw, ports, kv, now):
             y = 186 + i * 27
             o.append(f'<text x="{x + 20}" y="{y + 13}" {font} font-size="14" fill="{soft}">{esc(COUNTRIES.get(code, code))}</text>')
             bw = max(4, int(170 * n / peak))
-            o.append(f'<rect x="{x + 170}" y="{y + 1}" width="170" height="14" rx="4" fill="#0f1d3d"/>')
+            o.append(f'<rect x="{x + 170}" y="{y + 1}" width="170" height="14" rx="4" fill="#2a1430"/>')
             o.append(f'<rect x="{x + 170}" y="{y + 1}" width="{bw}" height="14" rx="4" fill="{cyan}" fill-opacity="0.8"/>')
             o.append(f'<text x="{x + 350}" y="{y + 13}" {font} font-size="13" font-weight="600" fill="{white}">{n}</text>')
         gr = rw["countries"].get("GR", 0)
         o.append(f'<text x="{x + 20}" y="342" {font} font-size="14" fill="{soft}">Greece: <tspan font-weight="700" fill="{white}">{gr}</tspan></text>')
         groups = ", ".join(clip(g, 14) for g, _ in rw["groups"].most_common(3))
         o.append(f'<text x="{x + 20}" y="368" {font} font-size="14" fill="{soft}">Most active: <tspan font-weight="600" fill="{white}">{esc(groups) or "–"}</tspan></text>')
-        o.append(f'<text x="{x + 20}" y="392" {font} font-size="11" fill="#64748b">Counts only. Victim names are not republished.</text>')
+        o.append(f'<text x="{x + 20}" y="392" {font} font-size="11" fill="#8b7f99">Counts only. Victim names are not republished.</text>')
     else:
         unavailable(x)
 
@@ -193,9 +193,9 @@ def render(rw, ports, kv, now):
             o.append(f'<text x="{x + 20}" y="{y + 18}" {font} font-size="22" font-weight="700" fill="{white}">{port}</text>')
             o.append(f'<text x="{x + 100}" y="{y + 17}" {font} font-size="14" fill="{soft}">{esc(PORTS.get(port, "other"))}</text>')
             bw = max(4, int(240 * reports / peak))
-            o.append(f'<rect x="{x + 20}" y="{y + 26}" width="260" height="8" rx="4" fill="#0f1d3d"/>')
+            o.append(f'<rect x="{x + 20}" y="{y + 26}" width="260" height="8" rx="4" fill="#2a1430"/>')
             o.append(f'<rect x="{x + 20}" y="{y + 26}" width="{bw}" height="8" rx="4" fill="{cyan}" fill-opacity="0.8"/>')
-        o.append(f'<text x="{x + 20}" y="392" {font} font-size="11" fill="#64748b">By reports from DShield sensors, latest day.</text>')
+        o.append(f'<text x="{x + 20}" y="392" {font} font-size="11" fill="#8b7f99">By reports from DShield sensors, latest day.</text>')
     else:
         unavailable(x)
 
@@ -212,11 +212,11 @@ def render(rw, ports, kv, now):
             o.append(f'<text x="{x + 370}" y="{y + 14}" {font} font-size="12" fill="{grey}" text-anchor="end">{esc(v.get("dateAdded", ""))}</text>')
             prod = f'{v.get("vendorProject", "")} {v.get("product", "")}'.strip()
             o.append(f'<text x="{x + 20}" y="{y + 34}" {font} font-size="13" fill="{soft}">{esc(clip(prod, 44))}</text>')
-        o.append(f'<text x="{x + 20}" y="392" {font} font-size="11" fill="#64748b">Vulnerabilities confirmed as exploited in the wild.</text>')
+        o.append(f'<text x="{x + 20}" y="392" {font} font-size="11" fill="#8b7f99">Vulnerabilities confirmed as exploited in the wild.</text>')
     else:
         unavailable(x)
 
-    o.append(f'<text x="30" y="{H - 24}" {font} font-size="12" fill="#64748b">Sources: Ransomware.live · SANS Technology Institute, Internet Storm Center (isc.sans.edu) · CISA Known Exploited Vulnerabilities. Leak-site claims are unverified by nature.</text>')
+    o.append(f'<text x="30" y="{H - 24}" {font} font-size="12" fill="#8b7f99">Sources: Ransomware.live · SANS Technology Institute, Internet Storm Center (isc.sans.edu) · CISA Known Exploited Vulnerabilities. Leak-site claims are unverified by nature.</text>')
     o.append("</svg>")
     return "\n".join(o)
 
